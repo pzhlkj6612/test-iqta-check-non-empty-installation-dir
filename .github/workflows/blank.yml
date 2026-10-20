@@ -19,7 +19,8 @@ jobs:
           - macos-26
           - macos-26-intel
         ref:
-          - 74da9d24bfd09175c300f7bd7d2f6a2f0a54a4c2
+          - 74da9d24bfd09175c300f7bd7d2f6a2f0a54a4c2 # original
+          - 94cfc5614df01d20d5585d99f3df464ccdf4e1d8 # new
     env:
       # Paths that are not under $GITHUB_WORKSPACE will make the "actions/checkout" step fail.
       # Paths that do not start with "./", or contain "..", will make the "Install Qt ..." step fail while parsing the root "action.yml" file.
